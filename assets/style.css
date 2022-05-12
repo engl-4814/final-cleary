@@ -15,6 +15,7 @@ body {
   color: white;
   font-size: 28px;
 }
+
 #elements {
   width: 100%;
   max-width: 1024px;
@@ -49,6 +50,12 @@ nav li a {
 .information {
   padding: 1em;
   margin: 1em;
+}
+
+.bullets {
+  margin-left: 15em;
+  margin-right: 15em;
+  margin-top: 2em;
 }
 
 #air {
