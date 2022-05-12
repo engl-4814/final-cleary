@@ -11,14 +11,14 @@
     <link rel="stylesheet" href="assets/style.css">
   </head>
   <body>
-    <header class="header">
+    <header class="header" id="header" role="banner" aria-label="header-and-navigation">
       <h1>Climate Change Through the Eyes of Avatar</h1>
       <div class="quote">
         <blockquote>
           <p>"In the darkest times, hope is something you give yourself. That is the meaning of inner strength." -Iroh</p>
         </blockquote>
       </div>
-      <nav>
+      <nav id="navigation" role="navigation" aria-label="main-navigation">
         <div id="elements">
           <ul>
             <div>
@@ -38,8 +38,8 @@
       </nav>
     </header>
     
-    <main class="grid">
-      <section id="air">
+    <main class="grid" role="main" aria-label="change-by-element">
+      <section id="air" role="region" aria-label="air-region">
         <div class="headings">
           <h1>Air</h1>
         </div>
@@ -56,7 +56,7 @@
         </div>
       </section>
       
-      <section id="earth">
+      <section id="earth" role="region" aria-label="earth-region">
         <div class="headings">
           <h1>Earth</h1>
         </div>
@@ -73,7 +73,7 @@
         </div>
       </section>
 
-      <section id="water">
+      <section id="water" role="region" aria-label="water-region">
         <div class="headings">
           <h1>Water</h1>
         </div>
@@ -90,7 +90,7 @@
         </div>
       </section>
 
-      <section id="fire">
+      <section id="fire" role="region" aria-label="fire-region">
         <div class="headings">
           <h1>Fire</h1>
         </div>
@@ -107,7 +107,7 @@
         </div>
       </section>
     </main>
-    <footer class="footer">
+    <footer class="footer" role="footer" aria-label="image-citations">
       <p>All images provided by <a href="https://unsplash.com/license" target="_blank">Unsplash</a>.</p>
     </footer>
   </body>
